@@ -19,14 +19,14 @@ public class CabInvoiceGeneratorTest {
 		
 	}
 	
-//	@Test
-//	public void givenLessDistanceAndTime_ShouldReturnMinFare() {
-//	InvoiceGenerator invoiceGenerator= new InvoiceGenerator();
-//	double diatance = 0.1;
-//	int time = 1;
-//	double fare = invoiceGenerator.calculateFare(diatance, time);
-//	assertEquals(5, fare, 0.0);
-//		
-//	}
+	@Test
+	public void givenLessDistanceAndTime_ShouldReturnMinFare() {
+	InvoiceGenerator invoiceGenerator= new InvoiceGenerator();
+	double diatance = 0.1;
+	int time = 1;
+	double fare = invoiceGenerator.calculateFare(diatance, time);
+	assertEquals(5, fare, 0.0);
+		
+	}
 
 }
